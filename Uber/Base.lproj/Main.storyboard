@@ -21,18 +21,44 @@
                             </mapView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c5E-5g-qTq">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8983 Sidelong Pl Columbia " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyr-JH-llI">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="qyr-JH-llI" firstAttribute="top" secondItem="c5E-5g-qTq" secondAttribute="top" constant="19" id="I1g-yA-RXm"/>
+                                    <constraint firstAttribute="centerX" secondItem="qyr-JH-llI" secondAttribute="centerX" id="YT6-Dc-weA"/>
                                     <constraint firstAttribute="height" constant="60" id="Z4o-xo-6u8"/>
+                                    <constraint firstItem="qyr-JH-llI" firstAttribute="leading" secondItem="c5E-5g-qTq" secondAttribute="leading" constant="94" id="jA6-BV-Fpl"/>
+                                    <constraint firstAttribute="trailing" secondItem="qyr-JH-llI" secondAttribute="trailing" constant="93" id="z6D-hI-QhO"/>
                                 </constraints>
                                 <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="qyr-JH-llI"/>
+                                    </mask>
                                     <mask key="constraints">
                                         <exclude reference="Z4o-xo-6u8"/>
+                                        <exclude reference="I1g-yA-RXm"/>
+                                        <exclude reference="YT6-Dc-weA"/>
+                                        <exclude reference="jA6-BV-Fpl"/>
+                                        <exclude reference="z6D-hI-QhO"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="qyr-JH-llI"/>
+                                    </mask>
                                     <mask key="constraints">
                                         <include reference="Z4o-xo-6u8"/>
+                                        <include reference="I1g-yA-RXm"/>
+                                        <include reference="YT6-Dc-weA"/>
+                                        <include reference="jA6-BV-Fpl"/>
+                                        <include reference="z6D-hI-QhO"/>
                                     </mask>
                                 </variation>
                             </view>
