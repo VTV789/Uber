@@ -16,22 +16,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wjn-0z-jE3">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3d9-Lz-T5g">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="60" width="400" height="540"/>
-                                </variation>
                             </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c5E-5g-qTq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Z4o-xo-6u8"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Z4o-xo-6u8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Z4o-xo-6u8"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3d9-Lz-T5g" secondAttribute="trailing" id="4di-BI-6kr"/>
+                            <constraint firstItem="c5E-5g-qTq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Kzh-vu-58h"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3d9-Lz-T5g" secondAttribute="bottom" id="LhG-ex-XCe"/>
+                            <constraint firstItem="c5E-5g-qTq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="QGO-wl-JgA"/>
+                            <constraint firstItem="3d9-Lz-T5g" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="bDv-rR-GMC"/>
+                            <constraint firstAttribute="trailing" secondItem="c5E-5g-qTq" secondAttribute="trailing" id="iuj-jr-BZX"/>
+                            <constraint firstItem="3d9-Lz-T5g" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="lJe-d1-B6j"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="wjn-0z-jE3"/>
+                                <exclude reference="3d9-Lz-T5g"/>
+                                <exclude reference="c5E-5g-qTq"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="4di-BI-6kr"/>
+                                <exclude reference="bDv-rR-GMC"/>
+                                <exclude reference="lJe-d1-B6j"/>
+                                <exclude reference="Kzh-vu-58h"/>
+                                <exclude reference="QGO-wl-JgA"/>
+                                <exclude reference="iuj-jr-BZX"/>
+                                <exclude reference="LhG-ex-XCe"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="wjn-0z-jE3"/>
+                                <include reference="3d9-Lz-T5g"/>
+                                <include reference="c5E-5g-qTq"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="4di-BI-6kr"/>
+                                <include reference="bDv-rR-GMC"/>
+                                <include reference="lJe-d1-B6j"/>
+                                <include reference="Kzh-vu-58h"/>
+                                <include reference="QGO-wl-JgA"/>
+                                <include reference="iuj-jr-BZX"/>
+                                <include reference="LhG-ex-XCe"/>
                             </mask>
                         </variation>
                     </view>
