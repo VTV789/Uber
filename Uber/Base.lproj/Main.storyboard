@@ -62,6 +62,17 @@
                                     </mask>
                                 </variation>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trd-gz-rRO">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="540" width="400" height="60"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -77,6 +88,7 @@
                             <mask key="subviews">
                                 <exclude reference="3d9-Lz-T5g"/>
                                 <exclude reference="c5E-5g-qTq"/>
+                                <exclude reference="Trd-gz-rRO"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="4di-BI-6kr"/>
@@ -92,6 +104,7 @@
                             <mask key="subviews">
                                 <include reference="3d9-Lz-T5g"/>
                                 <include reference="c5E-5g-qTq"/>
+                                <include reference="Trd-gz-rRO"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="4di-BI-6kr"/>
