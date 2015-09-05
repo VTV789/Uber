@@ -7,7 +7,7 @@
         <!--Vinh-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Uber" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="LocationViewController" customModule="Uber" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -146,6 +146,9 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Vinh" id="1WL-Lx-MoH"/>
+                    <connections>
+                        <outlet property="address" destination="qyr-JH-llI" id="uuk-AG-Ns1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
