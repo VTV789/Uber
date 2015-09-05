@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
 class LocationViewController: UIViewController {
 
     @IBOutlet weak var address: UILabel!
+    @IBOutlet weak var mayView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

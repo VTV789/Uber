@@ -148,6 +148,7 @@
                     <navigationItem key="navigationItem" title="Vinh" id="1WL-Lx-MoH"/>
                     <connections>
                         <outlet property="address" destination="qyr-JH-llI" id="uuk-AG-Ns1"/>
+                        <outlet property="mayView" destination="3d9-Lz-T5g" id="n7B-zD-ZAj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
