@@ -15,6 +15,7 @@
 		230370F61B996AD3003A5E46 /* UberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230370F51B996AD3003A5E46 /* UberTests.swift */; };
 		230371001B996BAD003A5E46 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230370FF1B996BAD003A5E46 /* CoreLocation.framework */; };
 		230371021B996BBC003A5E46 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230371011B996BBC003A5E46 /* MapKit.framework */; };
+		23076FDD1B9AA2A600EF556A /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23076FDC1B9AA2A600EF556A /* LocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		230370F51B996AD3003A5E46 /* UberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberTests.swift; sourceTree = "<group>"; };
 		230370FF1B996BAD003A5E46 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		230371011B996BBC003A5E46 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		23076FDC1B9AA2A600EF556A /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				230370E61B996AD3003A5E46 /* Images.xcassets */,
 				230370E81B996AD3003A5E46 /* LaunchScreen.xib */,
 				230370DD1B996AD3003A5E46 /* Supporting Files */,
+				23076FDC1B9AA2A600EF556A /* LocationViewController.swift */,
 			);
 			path = Uber;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23076FDD1B9AA2A600EF556A /* LocationViewController.swift in Sources */,
 				230370E21B996AD3003A5E46 /* ViewController.swift in Sources */,
 				230370E01B996AD3003A5E46 /* AppDelegate.swift in Sources */,
 			);
@@ -417,6 +421,7 @@
 				230370FB1B996AD3003A5E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		230370FC1B996AD3003A5E46 /* Build configuration list for PBXNativeTarget "UberTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				230370FE1B996AD3003A5E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
