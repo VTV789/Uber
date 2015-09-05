@@ -10,13 +10,21 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class LocationViewController: UIViewController {
+class LocationViewController: UIViewController, CLLocationManagerDelegate {
 
     @IBOutlet weak var address: UILabel!
     @IBOutlet weak var mayView: MKMapView!
     
+    var locationManger: CLLocationManager!
+    var perviousAddress: String!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
+        locationManger = CLLocationManager()
+        locationManger.desiredAccuracy = kCLLocationAccuracyBest
+        locationManger.delegate = self
+        locationManger.requestAlwaysAuthorization()
+        locationManger.requestLocation()
 
     }
 
