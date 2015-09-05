@@ -104,16 +104,16 @@
                                 <exclude reference="Trd-gz-rRO"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="LhG-ex-XCe"/>
+                                <exclude reference="Y3l-Gi-xpV"/>
+                                <exclude reference="Yy3-ei-fjk"/>
+                                <exclude reference="bib-xk-cJe"/>
                                 <exclude reference="4di-BI-6kr"/>
                                 <exclude reference="bDv-rR-GMC"/>
                                 <exclude reference="lJe-d1-B6j"/>
                                 <exclude reference="Kzh-vu-58h"/>
                                 <exclude reference="QGO-wl-JgA"/>
                                 <exclude reference="iuj-jr-BZX"/>
-                                <exclude reference="Yy3-ei-fjk"/>
-                                <exclude reference="bib-xk-cJe"/>
-                                <exclude reference="LhG-ex-XCe"/>
-                                <exclude reference="Y3l-Gi-xpV"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,16 +123,16 @@
                                 <include reference="Trd-gz-rRO"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="LhG-ex-XCe"/>
+                                <include reference="Y3l-Gi-xpV"/>
+                                <include reference="Yy3-ei-fjk"/>
+                                <include reference="bib-xk-cJe"/>
                                 <include reference="4di-BI-6kr"/>
                                 <include reference="bDv-rR-GMC"/>
                                 <include reference="lJe-d1-B6j"/>
                                 <include reference="Kzh-vu-58h"/>
                                 <include reference="QGO-wl-JgA"/>
                                 <include reference="iuj-jr-BZX"/>
-                                <include reference="Yy3-ei-fjk"/>
-                                <include reference="bib-xk-cJe"/>
-                                <include reference="LhG-ex-XCe"/>
-                                <include reference="Y3l-Gi-xpV"/>
                             </mask>
                         </variation>
                     </view>
@@ -161,4 +161,5 @@
             <point key="canvasLocation" x="379.5" y="-318"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
 </document>
