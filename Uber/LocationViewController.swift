@@ -16,7 +16,7 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var mayView: MKMapView!
     
     var locationManger: CLLocationManager!
-    var perviousAddress: String!
+    var previousAddress: String!
    
     override func viewDidLoad() {
         super.viewDidLoad()
